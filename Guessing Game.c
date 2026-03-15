@@ -6,7 +6,7 @@ int main(){
     int counter=0;
     srand(time(NULL));
     random=rand()%100+1;
-    printf("Welcome to the world of Guessing Number\n");
+    printf("\nWelcome to the world of Guessing Number\n");
     do{
         printf("\nGuess a number(1-100):");
         scanf("%d",&guess);
